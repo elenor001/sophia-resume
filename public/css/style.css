@@ -1,0 +1,90 @@
+.cnavy {
+    color: #355c7d;
+}
+
+.cpurple {
+    color: #6c5b7b;
+}
+
+.cpink {
+    color: #f65280;
+}
+
+.cpurplepink {
+    color: #c06c84;
+}
+
+.cyellow {
+    color: #f8b195;
+}
+
+.bnavy {
+    background-color: #355c7d;
+}
+
+.bpurple {
+    background-color: #6c5b7b;
+}
+
+.bpink {
+    background-color: #f65280;
+}
+
+.bpurplepink {
+    background-color: #c06c84;
+}
+
+.byellow {
+    background-color: #f8b195;
+}
+
+a {
+    color: #355c7d;
+}
+
+a:hover{
+    color: #c06c84;
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.img-resume{
+    height: 150px;
+}
+
+#pic {
+    height: 350px;
+}
+
+.pic-card-height {
+    height: 300px;
+}
+
+#css {
+    width: 70%;
+    height: 70%;
+}
+
+#cplusplus {
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-bottom: 57px;
+    height: 170px;
+    width: 150px;
+}
+
+#ts {
+    width: 80%;
+    height: 80%;
+}
+
+#spring {
+    width: 80%;
+    height: 80%;
+}

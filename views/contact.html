@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="resume">Resume</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact-fr">Français</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="display-4 mt-5 ml-5">Get in touch:</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form action="/contact" id="contact-form" method="post" role="form">
+                    <div class="row">
+                        <div class="col">
+                        <input id="firstname" name="firstname" type="text" class="form-control" placeholder="First name*" required>
+                        </div>
+                        <div class="col">
+                        <input id="lastname" name="lastname" type="text" class="form-control" placeholder="Last name*" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address*</label>
+                        <input id="email" name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message*</label>
+                        <textarea name="message"class="form-control" id="exampleFormControlTextarea1 message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg bpink">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <p>Available</p>
+                <p>(514)969-0826</p>
+                <a href="mailto:sophiatran92@outlook.com">Email me</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
