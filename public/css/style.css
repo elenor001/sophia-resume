@@ -56,6 +56,8 @@ a:hover{
 
 .img-resume{
     height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #pic {
@@ -64,27 +66,4 @@ a:hover{
 
 .pic-card-height {
     height: 300px;
-}
-
-#css {
-    width: 70%;
-    height: 70%;
-}
-
-#cplusplus {
-    margin-top: 60px;
-    margin-left: 70px;
-    margin-bottom: 57px;
-    height: 170px;
-    width: 150px;
-}
-
-#ts {
-    width: 80%;
-    height: 80%;
-}
-
-#spring {
-    width: 80%;
-    height: 80%;
 }
