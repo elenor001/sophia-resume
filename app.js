@@ -19,7 +19,7 @@ resume.get('/', function(req, res)
     console.log('Resume');
     
     // Affiche la page resume.html
-    res.render('resume');
+    res.render('new-resume');
 });
 
 resume.get('/resume', function(req, res) 
@@ -27,7 +27,7 @@ resume.get('/resume', function(req, res)
     console.log('Resume');
     
     // Affiche la page resume.html
-    res.render('resume');
+    res.render('new-resume');
 });
 
 resume.get('/resume-fr', function(req, res) 

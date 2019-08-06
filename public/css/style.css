@@ -1,3 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transition: background 0.4s linear;
+	text-align: center;
+	margin: 0;
+	min-height: 100vh;
+}
+
+.name {
+	margin-top: 10px;
+}
+
+.menu {
+	max-width: 200px;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	background-color: #1f1f1f;
+	padding: 0 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.nav {
+    padding: 1em 2em;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.tab {
+	color:white;
+    cursor: pointer;
+    justify-content: center;
+    transition: background 0.4s linear;
+}
+
+a:hover{
+	background-color: white;
+	color:#1f1f1f;
+    border-radius: 10px;
+	text-decoration: none;
+}
+
+.tab-footer {
+	color: white;
+	padding: 5px;
+}
+
 .cnavy {
     color: #355c7d;
 }
@@ -38,14 +99,6 @@
     background-color: #f8b195;
 }
 
-a {
-    color: #355c7d;
-}
-
-a:hover{
-    color: #c06c84;
-}
-
 .rotate270 {
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
@@ -61,7 +114,7 @@ a:hover{
 }
 
 #pic {
-    height: 350px;
+    border-radius: 50%;
 }
 
 .pic-card-height {
