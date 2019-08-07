@@ -59,7 +59,7 @@ resume.get('/projects', function(req, res)
     console.log('Projects');
     
     // Affiche la page projects.html
-    res.render('projects');
+    res.render('new-projects');
 });
 
 resume.get('/projets-fr', function(req, res) 
