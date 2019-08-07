@@ -75,7 +75,7 @@ resume.get('/contact', function(req, res)
     console.log('contact');
     
     // Affiche la page contact.html
-    res.render('contact');
+    res.render('new-contact');
 });
 
 resume.get('/contact-fr', function(req, res) 

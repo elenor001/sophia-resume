@@ -23,10 +23,6 @@
 					<i class="fas fa-code"></i>
 					<p>Projects</p>
 				</a>
-				<a class="tab" href="contact">
-					<i class="fas fa-envelope"></i>
-					<p>Contact</p>
-				</a>
 			</div>
 			<div class="nav-footer">
 				<a class="tab-footer" href="https://github.com/elenor001">
@@ -48,6 +44,10 @@
 				<h1>Presentation</h1>
 				<p>My name is Sophia Tran. I graduated from UQAM in December 2018. I have a bachelor in Computer Science. While in school, I have learned all the languages listed in the skills below and I'm eager to further my experience with them or learn new technologies. I've worked for Roy Cleaning, a housekeeping company since 2014.</p>
 			</div>
+			<h1>Contact Me</h1>
+			<p>Available</p>
+            <p>(514)969-0826</p>
+            <p><a href="mailto:sophiatran92@outlook.com">Email me</a></p>
 			<div class="skills">
 				<h1>Skills</h1>
 				<ul>
@@ -135,5 +135,18 @@
 				<p class="year">2011</p>
 			</div>
 		</div>
+		<script type="text/javascript">
+			const openBtn = document.getElementById('openModalBtn');
+			const closeBtn = document.getElementById('closeModalBtn');
+			const modal = document.getElementById('modal');
+
+			openBtn.addEventListener('click', () => {
+				modal.classList.add('open');
+			});
+
+			closeBtn.addEventListener('click', () => {
+				modal.classList.remove('open');
+			});
+		</script>
 	</body>
 </html>
