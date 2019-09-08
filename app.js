@@ -35,7 +35,7 @@ resume.get('/resume-fr', function(req, res)
     console.log('Resume-fr');
     
     // Affiche la page resume.html
-    res.render('resume-fr');
+    res.render('new-resume-fr');
 });
 
 resume.get('/skills', function(req, res) 
@@ -67,7 +67,7 @@ resume.get('/projets-fr', function(req, res)
     console.log('Projets-fr');
     
     // Affiche la page projects.html
-    res.render('projets-fr');
+    res.render('new-projets-fr');
 });
 
 resume.get('/contact', function(req, res) 
