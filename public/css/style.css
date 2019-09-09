@@ -26,6 +26,10 @@ p, h5 {
 	text-align: left;
 }
 
+.resume {
+	font-size: 30px;
+}
+
 .skills-ul {
 	list-style-type: none;
 	-moz-column-count: 3;
